@@ -21,7 +21,7 @@ python stealer.py
 ```
 если на компьютере установлен только Python версии 3.5
 
-##При получении Access Token вы получите ссылку вида:
+## При получении Access Token вы получите ссылку вида:
 ```
 https://oauth.vk.com/blank.html#access_token=ваш_токен&expires_in=0&user_id=ваш_айди_страницы
 ```
