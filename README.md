@@ -12,4 +12,6 @@ pip install vk
 - Access Token от вашей страницы Вконтакте
 
 Всё нужное можно получить при включении скрипта
-'''python3.5 stealer.py''' или '''python stealer.py''', если на компьютере установлен только Python версии 3.5
+```bash
+python3.5 stealer.py``` или ```bash
+python stealer.py```, если на компьютере установлен только Python версии 3.5
