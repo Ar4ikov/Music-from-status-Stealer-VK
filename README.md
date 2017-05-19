@@ -13,5 +13,10 @@ pip install vk
 
 Всё нужное можно получить при включении скрипта
 ```bash
-python3.5 stealer.py``` или ```bash
-python stealer.py```, если на компьютере установлен только Python версии 3.5
+python3.5 stealer.py
+``` 
+или 
+```bash
+python stealer.py
+```
+если на компьютере установлен только Python версии 3.5
