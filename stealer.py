@@ -65,6 +65,56 @@ import vk
 from time import sleep
 import requests
 
+current_version = "1.2"
+
+if check_updates == True:
+	get_version = requests.get("http://safybots.ru/get_version.php")
+	new_version = eval(get_version.text)
+
+	if current_version != new_version["actual"]:
+		print(" ")
+		print(" ")
+		print(" ")
+		print(" ")
+		print(" ")
+		print(" ")
+		print(" ")
+		print("##########################################")
+		print("#                                        #")
+		print("#      ВЫШЛА НОВАЯ ВЕРСИЯ СКРИПТА!       #")
+		print("#                                        #")
+		print("#   Ваша версия: "+str(current_version)+"                     #")
+		print("#   Актуальная версия: "+str(new_version["actual"])+"               #")
+		print("#                                        #")
+		print("# Вам стоит обновить ваш скрипт, видимо, #")
+		print("# вышла новая версия с изменениями и     #")
+		print("# новым функционалом!                    #")
+		print("#                                        #")
+		print("#         https://vk.cc/6F54nt           #")
+		print("#                                        #")
+		print("##########################################")
+		print(" ")
+		print(" ")
+		print(" ")
+		print(" ")
+		print(" ")
+		print(" ")
+		print(" ")
+	else:
+		print(" ")
+		print(" ")
+		print(" ")
+		print(" ")
+		print("##########################################")
+		print("#                                        #")
+		print("#    У ВАС ПОСЛЕДНЯЯ ВЕРСИЯ СКРИПТА :)   #")
+		print("#                                        #")
+		print("##########################################")
+		print(" ")
+		print(" ")
+		print(" ")
+		print(" ")
+
 kek = requests.get("https://api.vk.com/method/status.get?user_id="+str(your_id)+"&access_token="+str(access_token))
 kek = kek.text
 kek = eval(kek)
@@ -95,7 +145,7 @@ if kek.get("error"):
 		print("#                                        #")
 		print("#----------------------------------------#")
 		print("#                                        #")
-		print("#           https://vk.cc/6F50X4         #")
+		print("#           vk.cc/что_то_будет           #")
 		print("#                                        #")
 		print("##########################################")
 		print(" ")
